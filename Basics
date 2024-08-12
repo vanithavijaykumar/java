@@ -1,0 +1,25 @@
+OOPS Stands for Object Oriented Programming Structure.
+It is a method of implemenration in which a program is organised as a collection of class,method and Object
+*Inheritance
+*Polymorphism
+*Abstraction
+*Encapsulation
+
+Create-->Class, Method and object
+
+How to write a program:
+---------------------------------
+Project--->Package--->Class--->Method--->Object
+
+Coding Standards or Standard Notation:
+Pascal Notation:
+Each words first letter should be in capital.
+Where to use--->Project Name,Class Name.
+Eg:Zohocorporation
+
+Project:
+Eclipse-->File-->New-->Project-->ProjectName(PascalNotation)-->Finish
+Package:
+Project-->scr(R)-->New-->Package-->com.tcss
+Class:
+Package(R)-->New -->Class-->ClassName(Pascal Notation)-->Finsih
