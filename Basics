@@ -12,14 +12,45 @@ How to write a program:
 Project--->Package--->Class--->Method--->Object
 
 Coding Standards or Standard Notation:
-Pascal Notation:
+1)Pascal Notation:
+====================================
 Each words first letter should be in capital.
 Where to use--->Project Name,Class Name.
 Eg:Zohocorporation
-
+2)Camel Notation:
+====================================
+First word should be starting in lower case remaining each word first letter should be Starting in lower case
+  Eg:Object,method
 Project:
+-----------
 Eclipse-->File-->New-->Project-->ProjectName(PascalNotation)-->Finish
 Package:
-Project-->scr(R)-->New-->Package-->com.tcss
+----------
+Project-->scr(R)-->New-->Package-->com.tcs
 Class:
-Package(R)-->New -->Class-->ClassName(Pascal Notation)-->Finsih
+--------------
+Package(R)-->New -->Class-->ClassName(Pascal Notation)-->Finish
+
+Method:
+---------------
+1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
