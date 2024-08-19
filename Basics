@@ -1,3 +1,40 @@
+Java:
+* Programming language
+* used to create web application,Mobile Application,Desktop Application
+[eg: Zomato,Swiggy]
+Java is a platform independent
+It supports multiple application at a time 
+
+c/c++:
+It is a platform dependent
+It does not support multiple application at a time
+[Eg: Button phone]
+
+Main Features:
+======================================
+It is an open source
+It is a simple programming language
+It is easy to run and debug
+It does multi-threading(thread-process)
+Multiple process
+It is portable
+WORA(Write once Run anywhere)
+It is more secure
+
+Java Development Kit(JDK)
+===============================
+JDK=>JRE+JVM
+A kit which provides the environment to develop and execute java program
+Java Runtime Environment(JRE)
+===============================
+It contains predefined files and library
+Provide an environment to run a code
+Java Virtual Machine(JVM)
+=================================
+It is used to allocate memory at the run time RAM
+Responsible for executing the java program line by line
+==========================================================================================================================
+13/08/2024
 OOPS Stands for Object Oriented Programming Structure.
 It is a method of implemenration in which a program is organised as a collection of class,method and Object
 *Inheritance
@@ -30,15 +67,92 @@ Project-->scr(R)-->New-->Package-->com.tcs
 Class:
 --------------
 Package(R)-->New -->Class-->ClassName(Pascal Notation)-->Finish
+Object=>For what?
+Object is used for memory allocation
+Syntax:
+className objectName=new className
 
-Method:
----------------
-1)
+---------------------------------------------------------------------------------------------------------
+|Datatype|Size|Wrapper class|Default value| Range           |
+|  byte  |1   |Byte         | 0           |(-128 to 127)    |
+|  short |
+|
+|
+|
+|
+|
+|
+
+================================================================================================================
+19/08/2024
+1.Difference between equals and == :
+== refers the memory address
+equals refers the value in the object
+2.Cam main method be overloaded
+Yes
+3.Which main method is executed 1 st:
+String arguments
+4.Throw vs throws
+THrow=> generate the exception(1 exception at a time)
+throws=> handle the exception(can handle multiple exception at a time)
+
+Try catch=> In try gives the statement of the exception i.e a/0; In catch the exception to be given if the try exception occurs.
+
+5.Final vs finally
+Final=> cant able to declare or reassign a particular variable
+cannot able to inherit final method
+Finally=> Can execute even if it does not execute any method
+
+6.String buffer and String builder:
+StringBuffer is synchronized, meaning its methods are thread-safe and can be safely used in a multithreaded environment.
+On the other hand, StringBuilder is not synchronized, which makes it faster than StringBuffer, but it is not thread-safe and should not be used in a multithreaded environment.
+
+7.why we use main method in java
+The Java main method is usually the first method you learn about when you start programming in Java because its the entry point for executing a Java program.
+The main method can contain code to execute or call other methods, and it can be placed in any class that's part of a program.
 
 
+=====================================================================
+NOTES:
+STRING:
+-------------
+*Collection of character or work enclosed with double quotes is called String.
+*String is a predefined class
+*It is presented in java.lang package
+*It is based on syntax 0 to n-1
 
+Syntax:
+---------
+String refName="value";
+String s="Java";
+          0123
+Eg:String refName="java";length=4;index=0 to n-1
+n=> no of characters or length of the string
 
+2.String Methods:(pre defined methods)
+======================================
+length();
+charAt();
+startsWith();
+endsWith();
+toUpperCase();
+toLowerCase();
+indexOf();
+lastIndexOf();
+replace();
+replaceAll();
+subString(startIndex);
+subString(startIndex,endIndex);
+isEmpty();
+contains();
+equals();
+equalsIgnoreCase();
+concat();
+trim();
 
+Wrapper class => There is a data type in every class
+Integer=>int
+Character=>char
 
 
 
