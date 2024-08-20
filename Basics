@@ -154,8 +154,67 @@ Wrapper class => There is a data type in every class
 Integer=>int
 Character=>char
 
+STRING TYPES:
+------------
+Literal String
+Non literal string
+
+Literal String:
+------------------
+String s1="welcome";
+String s2="welcome";
+Incase of the duplicates,it will share the memory
+It is stored inside string pool or string constant
+
+Non Literal
+-------------------
+String s1=new String("welcome");
+String s2=new String("welcome");
+===================================================================================================
+Non literal string---------->Heap Memory                                                           =
+String s1=new String("Java");-->1234                 In case of duplication it will                =
+String s2=new String("John");--->4567                not share the memory location                 =
+                                                                                                   =
+====================================================================================================
+Literal String                                                                                      =
+String s="Java"  --|12345                             String pool/string constant                   =
+String s1="john";--|                                   In case of duplication it will share the     =
+                                                          memory location                           =
+====================================================================================================
+
+Immutable
+Mutable
+
+Immutable
+----------------------
+Same as the literal string
+String s="welcome";
+we use concat method.
+It is stored inside String pool or String constant.
+While join or any action on the immutable String.It will not share any one of the strings memory location.
+
+Mutable
+----------------
+Same as non literal string but use stringBuffer or StringBuilder
+StringBuffer=new StringBuffer("welcome");
+StringBuilder=new StringBuffer("welcome");
+
+It is stored in Heap Memory
+we can use append method
+during concatenation it will not take new memory
 
 
+String Buffer
+=================
+Synchronous--->continuous
+Thread safe
+Slow
+
+StringBuilder
+==============
+Asynchronous
+Not a thread safe
+fast.
 
 
 
