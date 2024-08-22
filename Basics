@@ -215,10 +215,17 @@ StringBuilder
 Asynchronous
 Not a thread safe
 fast.
+=================================================22.08.2024=============================================================================================================
+Permanant memory vs cache memory
+Cache memory is a type of computer memory that stores data temporarily for fast access by the CPU, while permanent memory stores data permanently
+
+working principle of
+import.java.util.*;
 
 
-
-
+ARRAYS:
+2d array=> Same number of rows and colums
+3d array=>any number of rows and any number of columns
 
 
 
