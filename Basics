@@ -227,6 +227,29 @@ ARRAYS:
 2d array=> Same number of rows and colums
 3d array=>any number of rows and any number of columns
 
+============================================================================================27.08.2024==========================================================
+ARRAY==>OBJECT
+OBJECT==>Combination of state and behaviour
+CLASS=>Collection of objects
+length()=>Instance or non staticvariable
+We can declare 0 as array length
+if we print length of that array print 0
+If we declare the array variable for a length of 0 array if we print the array Exception:Array out of Bound
+If we declare -1 as length Exception:Negative Index
+
+=>ARRAY=>Collection of similar data type
+=>We can store object data type in array
+=>Array is an Index based 
+=>0 to n-1
+=>Array can declare 
+1.Comma seperated value
+2.Using new keyword
+3.[] forward and backward of variable
+=>Disadvantages:
+   Continuous memory allocation(rectified the disadvantages of Linked List)
+
+
+   
 
 
 
