@@ -247,7 +247,31 @@ If we declare -1 as length Exception:Negative Index
 3.[] forward and backward of variable
 =>Disadvantages:
    Continuous memory allocation(rectified the disadvantages of Linked List)
+==========================================30.08.2024=========================================================
+Data Structures:
 
+
+
+Linked List: Properties:
+Successive elements are connected by pointers.
+Last element points to NULL
+Can grow or shrink in size during execution of a program
+Can be made just as long as required(until system memory)
+It does not waste memory space(but takes some extra memory for space)
+
+ADVANTAGES:
+->Dynamic Data structure 
+->Insertion and Deletion operations are easier
+->Efficient Memory Utilisation i.e. no need to pre allocate memory
+->Faster Access time
+->Linera Data structure such as Stck,Queue can be easily implemented using Linked List
+
+TYPES OF LINKED LIST
+=>Singly LL
+=>Doubly LL
+=>Circular LL
+=>Double Cirucular LL
+=>Skip List.
 
    
 
