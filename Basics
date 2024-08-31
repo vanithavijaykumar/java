@@ -273,7 +273,20 @@ TYPES OF LINKED LIST
 =>Double Cirucular LL
 =>Skip List.
 
-   
+==================================31.08.2024==========================================================
+Doubly Linked List
+Advantages:
+  Allows traversal of nodes in both direction which is not possible in singly Linked List
+Disadvantages:
+  It uses extra memory when compare to array and Singly linked list
+
+
+class Node
+{
+Node prev;
+int data;
+Node next;
+}
 
 
 
