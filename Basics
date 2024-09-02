@@ -287,7 +287,9 @@ Node prev;
 int data;
 Node next;
 }
-
+======================================================02.09.2024=========================
+STACK:Ordered list
+Insertion and deletion takes place at one end called TOP of the stack
 
 
 
